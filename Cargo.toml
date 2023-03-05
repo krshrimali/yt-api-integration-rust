@@ -1,0 +1,11 @@
+[package]
+name = "yt-api"
+version = "0.1.0"
+authors = ["Kushashwa Ravi Shrimali <kushashwaravishrimali@gmail.com>"]
+edition = "2021"
+publish = false
+
+[dependencies]
+google-youtube3 = "*"
+tokio = {version="*", features=["rt-multi-thread"]}
+yup-oauth2 = "*"
